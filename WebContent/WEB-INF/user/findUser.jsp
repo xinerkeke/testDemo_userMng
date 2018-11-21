@@ -25,7 +25,7 @@
                 	location.href = "delUser?id="+id;
                 }
             }
-        </script>
+</script>
 </head>
 <body>
 	<!--Logo区域开始-->
@@ -42,6 +42,7 @@
 	<!--导航区域结束-->
 	<!--主要区域开始-->
 	<div id="main">
+	<h1><a href="../user/findUser">用户管理</a></h1>
 		<form action="" method="">
 			<table id="datalist">
 				<tr>
@@ -62,7 +63,7 @@
 						<td><input type="button" value="修改" class="btn_modify"
 							onclick="location.href='fee_modi.html';" /> <input type="button"
 							value="删除" class="btn_delete"
-							onclick="deleteUser(<s:property value="id"/>);" /></td>
+							onclick="deleteUser(<s:property value='id'/>)" /></td>
 					</tr>
 				</s:iterator>
 			</table>

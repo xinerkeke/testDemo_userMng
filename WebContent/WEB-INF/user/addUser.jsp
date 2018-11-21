@@ -30,6 +30,7 @@
 	<!--导航区域结束-->
 	<!--主要区域开始-->
 	<div id="main">
+		
 		<form action="addUser" method="post" class="main_form">
 			<div class="text_info clearfix">
 				<span>用户ID：</span>
